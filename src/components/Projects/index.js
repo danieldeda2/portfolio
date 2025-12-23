@@ -55,7 +55,7 @@ const Projects = () => {
         <div className="project2">
           <h2>Spotify Guess</h2>
           <h3><i>Trivia Game + Spotify Wrapped App</i></h3>
-          <a className='spotify-guess' href="https://spotify-guess.com" rel="noreferrer">spotify-guess.com</a>
+          <p className='spotify-guess'>Website will be back up soon</p>
           <ul>
             <li>A trivia game where users answer general questions about their favorite Spotify artists/tracks.</li>
             <li>Also allows users to view data that Spotify doesn't normally show them (such as their most listened-to tracks/artists).</li>

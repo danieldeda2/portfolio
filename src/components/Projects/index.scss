@@ -3,6 +3,7 @@
     margin-left: 10vw;
     margin-top: -10px;
     width: 80vw;
+    margin-bottom: 40px; // Added spacing
 
     h2{
         color: #8B53FF;
@@ -38,6 +39,7 @@
     margin-left: 10vw;
     margin-top: 20px;
     width: 80vw;
+    margin-bottom: 40px; // Added spacing
 
     h2{
         color: #8B53FF;
@@ -73,6 +75,7 @@
     margin-left: 10vw;
     margin-top: 20px;
     width: 80vw;
+    margin-bottom: 40px; // Added spacing
 
     h2{
         color: #8B53FF;
@@ -108,6 +111,7 @@
     margin-left: 10vw;
     margin-top: 20px;
     width: 80vw;
+    margin-bottom: 80px; // Extra spacing at the end
 
     h2{
         color: #8B53FF;
@@ -137,6 +141,11 @@
 }
 }
 
+.projects-page {
+    overflow-y: auto; // Enable vertical scrolling
+    height: 100vh; // Full viewport height
+    padding-bottom: 50px; // Extra padding at bottom
+}
 
 .text-z{
     width: 80vw;
