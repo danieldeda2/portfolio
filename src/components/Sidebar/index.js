@@ -1,3 +1,4 @@
+import React from 'react'
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/logo-s.png'
