@@ -28,16 +28,16 @@ function Home() {
       name: 'CarQuest',
       description: 'AI-powered car spotting app with gamified mechanics',
       link: 'https://carquest.io',
-      stats: '95%+ ML Accuracy',
+      stats: 'Car Spotting + ML',
       tech: ['React', 'PyTorch', 'FastAPI', 'AWS', 'MongoDB']
     },
     {
       icon: '🎯',
       name: 'CompuCar',
       description: 'AI car recommendation system using KNN algorithm',
-      link: 'https://compucar.io',
+      link: 'https://compucar.cc',
       stats: '250k+ Monthly Users',
-      tech: ['Python', 'FastAPI', 'KNN', 'React']
+      tech: ['Python', 'FastAPI', 'k-NN', 'React']
     },
     {
       icon: '🎵',
@@ -53,7 +53,7 @@ function Home() {
       description: 'Custom website for NYC\'s premier car rental company',
       link: 'https://rentpegasus.com',
       stats: 'Production',
-      tech: ['React', 'EmailJS', 'Custom Animations']
+      tech: ['React', 'EmailJS', 'Reservation Engine']
     }
   ];
 
