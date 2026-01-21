@@ -28,40 +28,48 @@ function Home() {
       name: 'CarQuest',
       description: 'AI-powered car spotting app with gamified mechanics',
       link: 'https://carquest.io',
-      stats: 'Car Spotting + ML',
+      stats: 'Car Spotting Game',
       tech: ['React', 'PyTorch', 'FastAPI', 'AWS', 'MongoDB']
     },
     {
-      icon: '🎯',
-      name: 'CompuCar',
-      description: 'AI car recommendation system using KNN algorithm',
-      link: 'https://compucar.cc',
-      stats: '250k+ Monthly Users',
-      tech: ['Python', 'FastAPI', 'k-NN', 'React']
-    },
-    {
-      icon: '🎵',
-      name: 'Spotify Guess',
-      description: 'Trivia game + enhanced Spotify Wrapped experience',
-      link: '#',
-      stats: 'Coming Soon',
-      tech: ['React', 'Express.js', 'Spotify API', 'OpenAI']
+      icon: '🔮',
+      name: 'Obsidian',
+      description: 'Next-gen algorithmic trading platform with real-time market intelligence and ML-powered analysis',
+      link: 'https://obsidiantrading.net',
+      stats: 'Algorithmic Trading',
+      tech: ['React', 'FastAPI', 'ML', 'Polygon API', 'Real-time Data']
     },
     {
       icon: '🏎️',
       name: 'Pegasus Rentals',
       description: 'Custom website for NYC\'s premier car rental company',
       link: 'https://rentpegasus.com',
-      stats: 'Production',
+      stats: 'Car Rental',
       tech: ['React', 'EmailJS', 'Reservation Engine']
+    },
+    {
+      icon: '🎵',
+      name: 'Spotify Guess',
+      description: 'Trivia game + enhanced Spotify Wrapped experience',
+      link: 'https://github.com/danieldeda2/Spotify-Guess',
+      stats: 'Coming Soon!',
+      tech: ['React', 'Express.js', 'Spotify API', 'OpenAI']
+    },
+    {
+      icon: '🎯',
+      name: 'CompuCar',
+      description: 'Psychology quiz paired to an AI-powered car recommendation engine',
+      link: 'https://compucar.cc',
+      stats: 'Car Personality Quiz',
+      tech: ['Python', 'FastAPI', 'k-NN', 'React']
     }
   ];
 
   const skills = {
     frontend: ['React', 'JavaScript', 'HTML/CSS', 'Tailwind', 'Next.js'],
-    backend: ['Python', 'FastAPI', 'Express.js', 'Node.js', 'MongoDB'],
-    ml: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'AWS Rekognition', 'OpenAI API'],
-    tools: ['Git', 'AWS', 'DigitalOcean', 'Cloudflare', 'Docker']
+    backend: ['Python', 'Java', 'Express.js', 'Node.js', 'MongoDB', 'SQL'],
+    ml: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'AWS Rekognition'],
+    tools: ['Git', 'AWS', 'Redis', 'Docker', 'Kubernetes', 'DigitalOcean']
   };
 
   return (
@@ -178,15 +186,15 @@ function Home() {
               <div className="about-stats">
                 <div className="stat-item">
                   <div className="stat-number">250k+</div>
-                  <div className="stat-label">Monthly Users</div>
+                  <div className="stat-label">Monthly Streams</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">4+</div>
+                  <div className="stat-number">5+</div>
                   <div className="stat-label">Production Apps</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">95%+</div>
-                  <div className="stat-label">ML Accuracy</div>
+                  <div className="stat-number">100%</div>
+                  <div className="stat-label">Satisfaction</div>
                 </div>
               </div>
             </div>
