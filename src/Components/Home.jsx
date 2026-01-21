@@ -34,7 +34,7 @@ function Home() {
     {
       icon: '🔮',
       name: 'Obsidian',
-      description: 'Next-gen algorithmic trading platform with real-time market intelligence and ML-powered analysis',
+      description: 'Next-gen algorithmic trading platform with real-time market intelligence',
       link: 'https://obsidiantrading.net',
       stats: 'Algorithmic Trading',
       tech: ['React', 'FastAPI', 'ML', 'Polygon API', 'Real-time Data']
