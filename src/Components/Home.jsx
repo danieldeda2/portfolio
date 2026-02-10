@@ -40,6 +40,14 @@ function Home() {
       tech: ['React', 'FastAPI', 'ML', 'Polygon API', 'Real-time Data']
     },
     {
+      icon: '⚡',
+      name: 'Kinetix Labs',
+      description: 'Professional-grade automotive telemetry with advanced sensor integration technology',
+      link: 'https://kinetix-labs.com',
+      stats: 'Vehicle Telemetry',
+      tech: ['React', 'Flutter', 'Multi-Sensor Integration', 'Real-time Telemetry']
+    },
+    {
       icon: '🏎️',
       name: 'Pegasus Rentals',
       description: 'Custom website for NYC\'s premier car rental company',
