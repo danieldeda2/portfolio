@@ -49,11 +49,11 @@ function Home() {
     },
     {
       icon: '🏎️',
-      name: 'Pegasus Rentals',
-      description: 'Custom website for NYC\'s premier car rental company',
-      link: 'https://rentpegasus.com',
+      name: 'Celestial Drive',
+      description: 'Website for a premier car rental company in NYC',
+      link: 'https://celestial-drive.com',
       stats: 'Car Rental',
-      tech: ['React', 'EmailJS', 'Reservation Engine']
+      tech: ['React', 'Git', 'EmailJS', 'Reservation Engine']
     },
     {
       icon: '🎵',
