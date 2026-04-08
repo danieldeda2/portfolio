@@ -57,11 +57,11 @@ function Home() {
     },
     {
       icon: '🎵',
-      name: 'Spotify Guess',
-      description: 'Trivia game + enhanced Spotify Wrapped experience',
-      link: 'https://github.com/danieldeda2/Spotify-Guess',
-      stats: 'Coming Soon!',
-      tech: ['React', 'Express.js', 'Spotify API', 'OpenAI']
+      name: 'Taste Test',
+      description: 'AI-powered music trivia platform with real-time Spotify data pipeline and GPT-4 question generation',
+      link: 'https://taste-test.io',
+      stats: 'Music Trivia',
+      tech: ['React', 'Spotify API', 'OpenAI GPT-4', 'OAuth 2.0']
     },
     {
       icon: '🎯',
