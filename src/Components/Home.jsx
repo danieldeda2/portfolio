@@ -24,6 +24,14 @@ function Home() {
 
   const projects = [
     {
+      icon: '🤖',
+      name: 'FlowAgent',
+      description: 'AI orchestration platform connecting Gmail, GitHub, and Slack — control all three with natural language commands',
+      link: 'https://flow-agent.io',
+      stats: 'AI Agent Orchestration',
+      tech: ['Next.js', 'FastAPI', 'LangGraph', 'Claude API', 'PostgreSQL', 'OAuth 2.0']
+    },
+    {
       icon: '🚗',
       name: 'CarQuest',
       description: 'AI-powered car spotting app with gamified mechanics',
