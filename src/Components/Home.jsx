@@ -82,10 +82,10 @@ function Home() {
   ];
 
   const skills = {
-    frontend: ['React', 'JavaScript', 'HTML/CSS', 'Tailwind', 'Next.js'],
-    backend: ['Python', 'Java', 'Express.js', 'Node.js', 'MongoDB', 'SQL'],
-    ml: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'AWS Rekognition'],
-    tools: ['Git', 'AWS', 'Redis', 'Docker', 'Kubernetes', 'DigitalOcean']
+    frontend: ['React', 'Next.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    backend: ['Python', 'Node.js', 'Linux', 'FastAPI', 'PostgreSQL', 'MongoDB'],
+    ml: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'LangChain'],
+    tools: ['Git', 'AWS', 'Redis', 'Docker', 'DigitalOcean', 'Railway']
   };
 
   return (
@@ -190,27 +190,27 @@ function Home() {
             <div className="about-text">
               <h2 className="section-title">About Me</h2>
               <p className="about-description">
-                I'm a full-stack developer and ML engineer passionate about creating polished, 
+                I'm a full-stack developer and AI/ML engineer passionate about creating polished, 
                 production-grade applications that combine cutting-edge technology with exceptional user experiences.
               </p>
               <p className="about-description">
                 With a focus on building scalable systems and implementing machine learning solutions, 
-                I've developed applications serving hundreds of thousands of users. My work spans from 
+                I've developed applications serving real users. My work spans from 
                 AI-powered mobile apps to sophisticated web platforms, always prioritizing clean code, 
                 modern design, and real-world impact.
               </p>
               <div className="about-stats">
                 <div className="stat-item">
-                  <div className="stat-number">250k+</div>
-                  <div className="stat-label">Monthly Streams</div>
+                  <div className="stat-number">4</div>
+                  <div className="stat-label">Years of Experience</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">5+</div>
+                  <div className="stat-number">6+</div>
                   <div className="stat-label">Production Apps</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">100%</div>
-                  <div className="stat-label">Satisfaction</div>
+                  <div className="stat-number">{">"}99%</div>
+                  <div className="stat-label">Uptime</div>
                 </div>
               </div>
             </div>
@@ -239,7 +239,7 @@ function Home() {
 
                 <div className="skill-category">
                   <div className="category-icon">🤖</div>
-                  <h3 className="category-title">Machine Learning</h3>
+                  <h3 className="category-title">AI/ML</h3>
                   <div className="skill-tags">
                     {skills.ml.map((skill, i) => (
                       <span className="skill-tag" key={i}>{skill}</span>
